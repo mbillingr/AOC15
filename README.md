@@ -7,3 +7,5 @@ Commitment: solve each puzzle in Advent of Code 2015 in a different programming 
 day    | language
 -------|-------
 day  1 | APL
+day 2  | BASIC
+
