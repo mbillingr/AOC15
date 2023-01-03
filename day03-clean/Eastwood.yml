@@ -1,6 +1,6 @@
-compiler: cocl-itasks
+compiler: cocl
 paths:
   - src
   - nitrile-packages/linux-x64/base-stdenv/lib
-  - nitrile-packages/linux-x64/clean-platform/lib
-  - nitrile-packages/linux-x64/itasks/lib
+  #- nitrile-packages/linux-x64/clean-platform/lib
+  #- nitrile-packages/linux-x64/itasks/lib

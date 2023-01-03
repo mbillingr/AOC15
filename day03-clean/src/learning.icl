@@ -6,7 +6,7 @@ module learning
 
 import StdEnv
 
-// a function 
+// a function
 fact n = prod [1..n]
 
 // a function with two arguments
@@ -84,11 +84,11 @@ treeSize Leaf = 0
 treeSize (Node _ l r) = 1 + (treeSize l) + (treeSize r)
 
 
-// 1. functions without arguments are constants 
+// 1. functions without arguments are constants
 // 2. note the partial application of (over 10)
 // 3. let
-Start = let a = map (over 10) [0..10] 
-            b = map fib [0..10] 
+Start = let a = map (over 10) [0..10]
+            b = map fib [0..10]
             c = myreverse [1..10]
             d = map (pow 128) [0, 1, 2, 3]
             e = map (\x = x * x) [0, 1, 2, 3]
