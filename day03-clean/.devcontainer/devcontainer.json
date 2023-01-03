@@ -1,0 +1,7 @@
+{
+	"image": "cleanlang/nitrile:0.4.6",
+	"extensions": ["TOPSoftware.clean-vs-code"],
+	"onCreateCommand": ".devcontainer/setup.sh",
+	// Using `delegated` consistency improves performance, especially on non-Linux machines.
+	"workspaceMount": "source=${localWorkspaceFolder}/,target=/workspaces/itasks-template,type=bind,consistency=delegated",
+}
