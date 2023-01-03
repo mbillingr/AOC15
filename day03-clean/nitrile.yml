@@ -11,6 +11,9 @@ build:
       - clm:
           main: learning
           target: bin/learning
+      - clm:
+          main: part1
+          target: bin/part1
 
 dependencies:
   base: ^1.0.0
