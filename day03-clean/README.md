@@ -1,14 +1,21 @@
 Day 3 - Clean
 -------------
 
-Install the Clean language with
+Use the nitrile package manager: https://clean-and-itasks.gitlab.io/nitrile/intro/installation/
+
+When running for the first time:
 ```
-make setup
+nitrile update
+nitrile fetch
+```
+
+Compile with
+```
+nitrile build
 ```
 
 Run the learning example with
 ```
-make learning
-./learning
+./bin/learning
 ```
 

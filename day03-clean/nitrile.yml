@@ -1,0 +1,17 @@
+name: aoc15-03
+type: Application
+description: Advent of Code 2015, day 3
+version: 0.1.0
+
+src:
+  - src
+build:
+  learning:
+    script:
+      - clm:
+          main: learning
+          target: bin/learning
+
+dependencies:
+  base: ^1.0.0
+
