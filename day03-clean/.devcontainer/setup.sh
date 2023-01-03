@@ -6,10 +6,6 @@ apt-get install -qq --no-install-recommends \
     curl \
     zsh \
     git \
-    git-lfs \
-
-# Install git-lfs
-git lfs install
 
 # Install oh-my-zsh with prompts removed.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh) --unattended"
