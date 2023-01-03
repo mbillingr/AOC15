@@ -14,6 +14,9 @@ build:
       - clm:
           main: part1
           target: bin/part1
+      - clm:
+          main: part2
+          target: bin/part2
 
 dependencies:
   base: ^1.0.0
