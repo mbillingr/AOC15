@@ -3,5 +3,5 @@
 	"extensions": ["TOPSoftware.clean-vs-code"],
 	"onCreateCommand": ".devcontainer/setup.sh",
 	// Using `delegated` consistency improves performance, especially on non-Linux machines.
-	"workspaceMount": "source=${localWorkspaceFolder}/,target=/workspaces/itasks-template,type=bind,consistency=delegated",
+	//"workspaceMount": "source=${localWorkspaceFolder}/,target=/workspaces/day03-clean,type=bind,consistency=delegated"
 }
